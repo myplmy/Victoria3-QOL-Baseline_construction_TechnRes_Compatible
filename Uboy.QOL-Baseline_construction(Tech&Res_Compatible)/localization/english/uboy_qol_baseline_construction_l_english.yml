@@ -1,0 +1,19 @@
+﻿l_english:
+
+ # HEADER UI
+ UBOY_QOL_BASELINE_CONSTRUCTION_HEADER_LEFT: "Baseline Construction"
+ UBOY_QOL_BASELINE_CONSTRUCTION_HEADER_RIGHT: "Construct in states without this building"
+
+# 선택 UI
+ UBOY_QOL_BASELINE_CONSTRUCTION_SELECT_BUILDING: "Select Building"
+ UBOY_QOL_BASELINE_CONSTRUCTION_SELECT_BUILDING_TOOLTIP: "Select a building to construct from the icons."
+ 
+ # 편입주 건설
+ UBOY_QOL_BASELINE_CONSTRUCTION_BUILD_INCORPORATED: "Build in Incorporated States"
+ UBOY_QOL_BASELINE_CONSTRUCTION_BUILD_INCORPORATED_TOOLTIP: "Constructs one of the selected building in all incorporated states that currently lack it."
+ UBOY_QOL_BASELINE_CONSTRUCTION_BUILD_INCORPORATED_DESC: "Build one of the selected building in all incorporated states that lack it."
+ 
+ # 비편입주 건설
+ UBOY_QOL_BASELINE_CONSTRUCTION_BUILD_UNINCORPORATED: "Build in Unincorporated States"
+ UBOY_QOL_BASELINE_CONSTRUCTION_BUILD_UNINCORPORATED_TOOLTIP: "Constructs one of the selected building in all unincorporated states that currently lack it."
+ UBOY_QOL_BASELINE_CONSTRUCTION_BUILD_UNINCORPORATED_DESC: "Build one of the selected building in all unincorporated states that lack it."
