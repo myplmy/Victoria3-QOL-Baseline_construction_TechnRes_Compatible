@@ -2,7 +2,7 @@ types uboy_qol_baseline_construction_types {
     ### UBOY-QOL-BASELINE_CONSTRUCTION
 
     # 재사용 가능한 건물 버튼
-    type building_filter_button = button {
+    type uboy_qol_basline_construction_building_filter_button = button {
         using = default_button
         visible = "[BuildingType.IsBuildableInAnyState(GetPlayer)]"
         size = { 50 50 }
@@ -126,32 +126,32 @@ types uboy_qol_baseline_construction_types {
                 ignoreinvisible = yes
 
                 # Art (1)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
 					datacontext = "[GetBuildingType('building_arts_academy')]"
 				}
 
                 # Other (6)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_port')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_railway')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_power_plant')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_government_administration')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_university')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_construction_sector')]"
                 }
             }
@@ -160,28 +160,28 @@ types uboy_qol_baseline_construction_types {
                 direction = horizontal
                 ignoreinvisible = yes
                 # Farms (5)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_rye_farm')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_wheat_farm')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_rice_farm')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_maize_farm')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_millet_farm')]"
                 }
                 
                 # Ranch (1)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_livestock_ranch')]"
                 }
             }            
@@ -190,43 +190,43 @@ types uboy_qol_baseline_construction_types {
                 ignoreinvisible =yes
 
                 # Plantations (10)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_coffee_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_cotton_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_dye_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_opium_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_tea_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_tobacco_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_sugar_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_banana_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_silk_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_vineyard_plantation')]"
                 }
             }
@@ -235,44 +235,44 @@ types uboy_qol_baseline_construction_types {
                 direction = horizontal
                 ignoreinvisible = yes
                 # Mines (5)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_coal_mine')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_iron_mine')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_lead_mine')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_sulfur_mine')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_gold_mine')]"
                 }
 
                 # Misc (5)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_logging_camp')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_rubber_plantation')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_fishing_wharf')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_whaling_station')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_oil_rig')]"
                 }
             }
@@ -284,27 +284,27 @@ types uboy_qol_baseline_construction_types {
                 ignoreinvisible = yes
 
                 # Industry (6)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_food_industry')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_textile_mills')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_furniture_manufacturies')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_glassworks')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_tooling_workshops')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_paper_mills')]"
                 }
             }
@@ -314,31 +314,31 @@ types uboy_qol_baseline_construction_types {
                 ignoreinvisible = yes
 
                 # Industry (7)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_chemical_plants')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_explosives_factory')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_synthetics_plants')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_steel_mills')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_motor_industry')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_automotive_industry')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_electrics_industry')]"
                 }
             }
@@ -349,24 +349,24 @@ types uboy_qol_baseline_construction_types {
                 ignoreinvisible = yes
                 
                 # Shipyard (1)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_shipyards')]"
                 }
                 
                 # Military (4)
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_military_shipyards')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_arms_industry')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_artillery_foundries')]"
                 }
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_munition_plants')]"
                 }
             }
@@ -377,27 +377,27 @@ types uboy_qol_baseline_construction_types {
                 
                 # Tech & Res Data (6)
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_office')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_software_industry')]"
                 }
 
-                building_filter_button ={
+                uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_interactive_media_industry')]"
                 }
 
-                building_filter_button ={
+                uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_telecommunications_industry')]"
                 }
                 
-                building_filter_button ={
+                uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_datacenter_industry')]"
                 }
 
-                building_filter_button ={
+                uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_ecommerce_logistics')]"
                 }
 
@@ -409,37 +409,37 @@ types uboy_qol_baseline_construction_types {
                 
                 # Tech & Res Energy (2)
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_renewable_energy_power_plant')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_geothermal_power_plant')]"
                 }
 
                 # Tech & Res modified mr (6)
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_elgar_opera')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_manzoni_publishing_industry')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_instrument_workshops')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_mendelejew_hydrogenation_plants')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_mendelejew_synthetic_rubber_factory')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_airport')]"
                 }
 
@@ -451,33 +451,33 @@ types uboy_qol_baseline_construction_types {
 
                 # Tech & Res mr (1)
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_uranium_mine')]"
                 }
 
                 # Tech & Res new Resource (6)
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_bauxite_mine')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_copper_mine')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_commonores_mine')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_advancedores_mine')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_natural_gas_rig')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_rare_earths_mine')]"
                 }
 
@@ -491,43 +491,43 @@ types uboy_qol_baseline_construction_types {
 
                 # Tech & Res new (10)
                 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_alloys_plant')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_electronics_industry')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_battery_plant')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_processors_foundry')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_robotics_industry')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_aircraft_industry')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_pharmaceuticals_industry')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_consumer_electronics_industry')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_hydroponic')]"
                 }
 
-				building_filter_button ={
+				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_water_plant')]"
                 }
             }
