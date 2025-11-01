@@ -461,6 +461,14 @@ uboy_qol_baseline_construction_select_building_construction_sector = {
     }
 }
 
+uboy_qol_baseline_construction_select_building_power_bloc_statue = {
+    scope = country
+    effect = {
+        uboy_qol_baseline_construction_clear_all_selections = yes
+        set_variable = { name = uboy_qol_baseline_construction_building_selected_building_power_bloc_statue value = yes }
+    }
+}
+
 uboy_qol_baseline_construction_select_building_office = {
     scope = country
     effect = {

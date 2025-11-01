@@ -53,6 +53,8 @@ uboy_qol_baseline_construction_clear_all_selections = {
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_government_administration } remove_variable = uboy_qol_baseline_construction_building_selected_building_government_administration }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_university } remove_variable = uboy_qol_baseline_construction_building_selected_building_university }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_construction_sector } remove_variable = uboy_qol_baseline_construction_building_selected_building_construction_sector }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_power_bloc_statue } remove_variable = uboy_qol_baseline_construction_building_selected_building_power_bloc_statue }
+
     # tech & res
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_office } remove_variable = uboy_qol_baseline_construction_building_selected_building_office }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_software_industry } remove_variable = uboy_qol_baseline_construction_building_selected_building_software_industry }
@@ -360,6 +362,10 @@ uboy_qol_baseline_construction_effect_build_incorporated_begin = {
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_construction_sector }
 		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_construction_sector }
+	}
+	else_if = {
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_power_bloc_statue }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_power_bloc_statue }
 	}
     #tech and res
 	else_if = {
@@ -708,6 +714,10 @@ uboy_qol_baseline_construction_effect_build_unincorporated_begin = {
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_construction_sector }
 		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_construction_sector }
+	}
+	else_if = {
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_power_bloc_statue }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_power_bloc_statue }
 	}
     #tech and res
 	else_if = {

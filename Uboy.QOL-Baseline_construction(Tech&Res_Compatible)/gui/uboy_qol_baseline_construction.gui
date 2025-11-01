@@ -130,7 +130,7 @@ types uboy_qol_baseline_construction_types {
 					datacontext = "[GetBuildingType('building_arts_academy')]"
 				}
 
-                # Other (6)
+                # Other (7)
 				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_port')]"
                 }
@@ -153,6 +153,10 @@ types uboy_qol_baseline_construction_types {
                 
 				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_construction_sector')]"
+                }
+
+				uboy_qol_basline_construction_building_filter_button ={
+                    datacontext = "[GetBuildingType('building_power_bloc_statue')]"
                 }
             }
 
