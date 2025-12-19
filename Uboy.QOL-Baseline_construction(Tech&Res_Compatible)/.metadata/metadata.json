@@ -1,8 +1,8 @@
 {
   "name" : "Uboy.QOL-Baseline construction (Tech & Res Compatible)",
   "id" : "uboy.qol.baselineconstruction.trcompatible",
-  "version" : "1.0.2",
-  "supported_game_version" : "1.11.*",
+  "version" : "1.0.3",
+  "supported_game_version" : "1.12.*",
   "picture": "thumbnail.png",
   "short_description" : "Provides a function to build one of your chosen buildings in all targeted states.",
   "tags" : ["Utilities","QOL"],
@@ -10,9 +10,9 @@
     {
       "rel_type" : "dependency",
       "id" : "tech.res",
-      "display_name" : "[1.11] Tech & Res",
+      "display_name" : "[1.12] Tech & Res",
       "resource_type" : "mod",
-      "version" : "1.4'"
+      "version" : "1.5'"
     }
   ],
   "game_custom_data" : {

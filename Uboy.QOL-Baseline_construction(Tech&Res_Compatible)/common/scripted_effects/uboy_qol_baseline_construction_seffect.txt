@@ -3,15 +3,15 @@
 # ========================================
 uboy_qol_baseline_construction_clear_all_selections = {
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_food_industry } remove_variable = uboy_qol_baseline_construction_building_selected_building_food_industry }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_textile_mills } remove_variable = uboy_qol_baseline_construction_building_selected_building_textile_mills }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_furniture_manufacturies } remove_variable = uboy_qol_baseline_construction_building_selected_building_furniture_manufacturies }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_textile_mill } remove_variable = uboy_qol_baseline_construction_building_selected_building_textile_mill }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_furniture_manufactory } remove_variable = uboy_qol_baseline_construction_building_selected_building_furniture_manufactory }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_glassworks } remove_variable = uboy_qol_baseline_construction_building_selected_building_glassworks }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_tooling_workshops } remove_variable = uboy_qol_baseline_construction_building_selected_building_tooling_workshops }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_paper_mills } remove_variable = uboy_qol_baseline_construction_building_selected_building_paper_mills }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_chemical_plants } remove_variable = uboy_qol_baseline_construction_building_selected_building_chemical_plants }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_tooling_workshop } remove_variable = uboy_qol_baseline_construction_building_selected_building_tooling_workshop }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_paper_mill } remove_variable = uboy_qol_baseline_construction_building_selected_building_paper_mill }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_chemical_plant } remove_variable = uboy_qol_baseline_construction_building_selected_building_chemical_plant }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_explosives_factory } remove_variable = uboy_qol_baseline_construction_building_selected_building_explosives_factory }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_synthetics_plants } remove_variable = uboy_qol_baseline_construction_building_selected_building_synthetics_plants }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_steel_mills } remove_variable = uboy_qol_baseline_construction_building_selected_building_steel_mills }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_synthetics_plant } remove_variable = uboy_qol_baseline_construction_building_selected_building_synthetics_plant }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_steel_mill } remove_variable = uboy_qol_baseline_construction_building_selected_building_steel_mill }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_motor_industry } remove_variable = uboy_qol_baseline_construction_building_selected_building_motor_industry }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_automotive_industry } remove_variable = uboy_qol_baseline_construction_building_selected_building_automotive_industry }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_electrics_industry } remove_variable = uboy_qol_baseline_construction_building_selected_building_electrics_industry }
@@ -35,18 +35,18 @@ uboy_qol_baseline_construction_clear_all_selections = {
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_sugar_plantation } remove_variable = uboy_qol_baseline_construction_building_selected_building_sugar_plantation }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_banana_plantation } remove_variable = uboy_qol_baseline_construction_building_selected_building_banana_plantation }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_silk_plantation } remove_variable = uboy_qol_baseline_construction_building_selected_building_silk_plantation }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_vineyard_plantation } remove_variable = uboy_qol_baseline_construction_building_selected_building_vineyard_plantation }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_arts_academy } remove_variable = uboy_qol_baseline_construction_building_selected_building_arts_academy }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_vineyard } remove_variable = uboy_qol_baseline_construction_building_selected_building_vineyard }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_art_academy } remove_variable = uboy_qol_baseline_construction_building_selected_building_art_academy }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_logging_camp } remove_variable = uboy_qol_baseline_construction_building_selected_building_logging_camp }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_rubber_plantation } remove_variable = uboy_qol_baseline_construction_building_selected_building_rubber_plantation }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_fishing_wharf } remove_variable = uboy_qol_baseline_construction_building_selected_building_fishing_wharf }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_whaling_station } remove_variable = uboy_qol_baseline_construction_building_selected_building_whaling_station }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_oil_rig } remove_variable = uboy_qol_baseline_construction_building_selected_building_oil_rig }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_shipyards } remove_variable = uboy_qol_baseline_construction_building_selected_building_shipyards }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyards } remove_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyards }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_shipyard } remove_variable = uboy_qol_baseline_construction_building_selected_building_shipyard }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard } remove_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_arms_industry } remove_variable = uboy_qol_baseline_construction_building_selected_building_arms_industry }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundries } remove_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundries }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_munition_plants } remove_variable = uboy_qol_baseline_construction_building_selected_building_munition_plants }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundry } remove_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundry }
+    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_munition_plant } remove_variable = uboy_qol_baseline_construction_building_selected_building_munition_plant }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_port } remove_variable = uboy_qol_baseline_construction_building_selected_building_port }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_railway } remove_variable = uboy_qol_baseline_construction_building_selected_building_railway }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_power_plant } remove_variable = uboy_qol_baseline_construction_building_selected_building_power_plant }
@@ -155,40 +155,40 @@ uboy_qol_baseline_construction_effect_build_incorporated_begin = {
 		uboy_qol_baseline_construction_effect_build_incorporated = {BUILDING = building_food_industry }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_textile_mills }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_textile_mills }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_textile_mill }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_textile_mill }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_furniture_manufacturies }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_furniture_manufacturies }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_furniture_manufactory }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_furniture_manufactory }
 	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_glassworks }
 		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_glassworks }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_tooling_workshops }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_tooling_workshops }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_tooling_workshop }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_tooling_workshop }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_paper_mills }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_paper_mills }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_paper_mill }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_paper_mill }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_chemical_plants }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_chemical_plants }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_chemical_plant }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_chemical_plant }
 	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_explosives_factory }
 		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_explosives_factory }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_synthetics_plants }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_synthetics_plants }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_synthetics_plant }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_synthetics_plant }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_steel_mills }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_steel_mills }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_steel_mill }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_steel_mill }
 	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_motor_industry }
@@ -222,6 +222,10 @@ uboy_qol_baseline_construction_effect_build_incorporated_begin = {
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_millet_farm }
 		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_millet_farm }
+	}
+	else_if = {
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_vineyard }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_vineyard }
 	}
 	# ranch
 	else_if = {
@@ -286,14 +290,10 @@ uboy_qol_baseline_construction_effect_build_incorporated_begin = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_silk_plantation }
 		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_silk_plantation }
 	}
-	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_vineyard_plantation }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_vineyard_plantation }
-	}
 	# art
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_arts_academy }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_arts_academy }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_art_academy }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_art_academy }
 	}
 	# misc
 	else_if = {
@@ -318,25 +318,25 @@ uboy_qol_baseline_construction_effect_build_incorporated_begin = {
 	}
 	# shipyard
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_shipyards }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_shipyards }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_shipyard }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_shipyard }
 	}
 	# military industries
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyards }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_military_shipyards }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_military_shipyard }
 	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_arms_industry }
 		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_arms_industry }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundries }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_artillery_foundries }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundry }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_artillery_foundry }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_munition_plants }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_munition_plants }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_munition_plant }
+		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_munition_plant }
 	}
 	# other
 	else_if = {
@@ -507,40 +507,40 @@ uboy_qol_baseline_construction_effect_build_unincorporated_begin = {
 		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_food_industry }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_textile_mills }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_textile_mills }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_textile_mill }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_textile_mill }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_furniture_manufacturies }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_furniture_manufacturies }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_furniture_manufactory }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_furniture_manufactory }
 	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_glassworks }
 		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_glassworks }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_tooling_workshops }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_tooling_workshops }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_tooling_workshop }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_tooling_workshop }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_paper_mills }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_paper_mills }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_paper_mill }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_paper_mill }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_chemical_plants }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_chemical_plants }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_chemical_plant }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_chemical_plant }
 	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_explosives_factory }
 		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_explosives_factory }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_synthetics_plants }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_synthetics_plants }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_synthetics_plant }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_synthetics_plant }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_steel_mills }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_steel_mills }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_steel_mill }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_steel_mill }
 	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_motor_industry }
@@ -574,6 +574,10 @@ uboy_qol_baseline_construction_effect_build_unincorporated_begin = {
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_millet_farm }
 		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_millet_farm }
+	}
+	else_if = {
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_vineyard }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_vineyard }
 	}
 	# ranch
 	else_if = {
@@ -638,14 +642,10 @@ uboy_qol_baseline_construction_effect_build_unincorporated_begin = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_silk_plantation }
 		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_silk_plantation }
 	}
-	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_vineyard_plantation }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_vineyard_plantation }
-	}
 	# art
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_arts_academy }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_arts_academy }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_art_academy }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_art_academy }
 	}
 	# misc
 	else_if = {
@@ -670,25 +670,25 @@ uboy_qol_baseline_construction_effect_build_unincorporated_begin = {
 	}
 	# shipyard
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_shipyards }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_shipyards }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_shipyard }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_shipyard }
 	}
 	# military industries
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyards }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_military_shipyards }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_military_shipyard }
 	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_arms_industry }
 		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_arms_industry }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundries }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_artillery_foundries }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundry }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_artillery_foundry }
 	}
 	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_munition_plants }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_munition_plants }
+		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_munition_plant }
+		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_munition_plant }
 	}
 	# other
 	else_if = {

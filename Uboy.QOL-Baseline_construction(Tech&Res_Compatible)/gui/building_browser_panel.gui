@@ -2922,6 +2922,7 @@ types building_browser_panel_types
 
 				flowcontainer = {
 					direction = vertical
+					spacing = 5
 
 					datamodel = "[BuildingBrowserPanel.GetBuildingBrowserBuildingTypeItems]"
 
