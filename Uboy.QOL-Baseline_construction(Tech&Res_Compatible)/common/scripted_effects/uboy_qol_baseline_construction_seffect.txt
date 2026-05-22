@@ -43,7 +43,7 @@ uboy_qol_baseline_construction_clear_all_selections = {
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_whaling_station } remove_variable = uboy_qol_baseline_construction_building_selected_building_whaling_station }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_oil_rig } remove_variable = uboy_qol_baseline_construction_building_selected_building_oil_rig }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_shipyard } remove_variable = uboy_qol_baseline_construction_building_selected_building_shipyard }
-    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard } remove_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard }
+#    if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard } remove_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_arms_industry } remove_variable = uboy_qol_baseline_construction_building_selected_building_arms_industry }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundry } remove_variable = uboy_qol_baseline_construction_building_selected_building_artillery_foundry }
     if = { limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_munition_plant } remove_variable = uboy_qol_baseline_construction_building_selected_building_munition_plant }
@@ -322,10 +322,10 @@ uboy_qol_baseline_construction_effect_build_incorporated_begin = {
 		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_shipyard }
 	}
 	# military industries
-	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard }
-		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_military_shipyard }
-	}
+#	else_if = {
+#		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard }
+#		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_military_shipyard }
+#	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_arms_industry }
 		uboy_qol_baseline_construction_effect_build_incorporated = { BUILDING = building_arms_industry }
@@ -674,10 +674,10 @@ uboy_qol_baseline_construction_effect_build_unincorporated_begin = {
 		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_shipyard }
 	}
 	# military industries
-	else_if = {
-		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard }
-		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_military_shipyard }
-	}
+#	else_if = {
+#		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_military_shipyard }
+#		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_military_shipyard }
+#	}
 	else_if = {
 		limit = { has_variable = uboy_qol_baseline_construction_building_selected_building_arms_industry }
 		uboy_qol_baseline_construction_effect_build_unincorporated = { BUILDING = building_arms_industry }

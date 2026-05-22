@@ -358,9 +358,9 @@ types uboy_qol_baseline_construction_types {
                 }
                 
                 # Military (4)
-				uboy_qol_basline_construction_building_filter_button ={
-                    datacontext = "[GetBuildingType('building_military_shipyard')]"
-                }
+#				uboy_qol_basline_construction_building_filter_button ={
+#                    datacontext = "[GetBuildingType('building_military_shipyard')]"
+#                }
                 
 				uboy_qol_basline_construction_building_filter_button ={
                     datacontext = "[GetBuildingType('building_arms_industry')]"
